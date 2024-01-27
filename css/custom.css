@@ -1,73 +1,73 @@
 /* dark / light mode */
-html.dark body {
+html {
     background: #222;
     color: #888888;
 }
 
-html.dark h1,
-html.dark h2,
-html.dark h3,
-html.dark h4,
-html.dark h5,
-html.dark h6 {
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
     color: #dbdbdb;
 }
 
-html.dark hr {
+html hr {
     border-color: #111;
 }
 
-html.dark .docs-sidebar .nav>li>a {
+html .docs-sidebar .nav>li>a {
     color: #eee;
 }
 
-html.dark .dark-text hr {
+html .dark-text hr {
     border-color: #fcfcfc;
 }
 
-html.dark strong {
+html strong {
     color: #fcfcfc;
 }
 
-html.dark .intro1 {
+html .intro1 {
     background-color: #0c0c0c;
 }
 
-html.dark .intro1 a {
-    color: #F16811 !important;
+html .intro1 a {
+    color: #90be8c !important; /* Green color */
 }
 
-html.dark a {
+html a {
     color: #CC8548;
 }
 
-html.dark a:hover {
-    color: #F16811;
+html a:hover {
+    color: #90be8c; /* Green color on hover */
 }
 
-html.dark .intro2 {
-    background-color: #F16811;
-    border-color: #DE7844;
+html .intro2 {
+    background-color: #90be8c; /* Green color */
+    border-color: #75a478;
 }
 
-html.dark .btn-primary {
-    background-color: #F16811;
-    border-color: #DE7844;
+html .btn-primary {
+    background-color: #90be8c; /* Green color */
+    border-color: #75a478;
     color: #000;
 }
 
-html.dark .btn-primary:hover {
-    background-color: #DE7844;
-    border-color: #F16811;
+html .btn-primary:hover {
+    background-color: #75a478;
+    border-color: #90be8c; /* Green color on hover */
 }
 
-html.dark .btn-info {
+html .btn-info {
     background-color: #ABABAB;
     border-color: #9A9A9A;
     color: #000;
 }
 
-html.dark .btn-info:hover {
+html .btn-info:hover {
     background-color: #9A9A9A;
     border-color: #ABABAB;
 }
@@ -88,7 +88,7 @@ html.dark .btn-info:hover {
     box-sizing: content-box;
 }
 
-html.dark #mode .light {
+.dark #mode .light {
     display: none;
 }
 
@@ -96,13 +96,16 @@ html #mode .light {
     display: block;
 }
 
-html.dark #mode .dark {
+.dark #mode .dark {
     display: block;
 }
 
 html #mode .dark {
     display: none;
 }
+
+/* Rest of the styles remain the same */
+
 
 /*Docs*/
 
