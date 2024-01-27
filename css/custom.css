@@ -34,7 +34,7 @@ html .intro1 {
 }
 
 html .intro1 a {
-    color: #90be8c !important; /* Green color */
+    color: #4CAF50 !important; /* Green color */
 }
 
 html a {
@@ -42,23 +42,23 @@ html a {
 }
 
 html a:hover {
-    color: #90be8c; /* Green color on hover */
+    color: #4CAF50; /* Green color on hover */
 }
 
 html .intro2 {
-    background-color: #90be8c; /* Green color */
-    border-color: #75a478;
+    background-color: #4CAF50; /* Green color */
+    border-color: #388e3c;
 }
 
 html .btn-primary {
-    background-color: #90be8c; /* Green color */
-    border-color: #75a478;
+    background-color: #4CAF50; /* Green color */
+    border-color: #388e3c;
     color: #000;
 }
 
 html .btn-primary:hover {
-    background-color: #75a478;
-    border-color: #90be8c; /* Green color on hover */
+    background-color: #388e3c;
+    border-color: #4CAF50; /* Green color on hover */
 }
 
 html .btn-info {
